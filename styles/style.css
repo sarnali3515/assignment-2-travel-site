@@ -243,6 +243,35 @@ nav li {
     height: 300px;
 }
 
+/* why choose */
+
+.choose-content {
+    text-align: center;
+}
+
+.choose-card-container {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    border-radius: 16px;
+    padding: 32px 32px;
+}
+
+.card1 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card3 {
+    margin: 10px 22%;
+}
 
 
 
@@ -352,5 +381,15 @@ nav li {
         height: 176px;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    /* choose */
+    .choose-card-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card3 {
+        margin: 15px 0;
     }
 }
