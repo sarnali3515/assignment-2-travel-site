@@ -313,6 +313,8 @@ nav li {
         height: 3.25rem;
     }
 
+    /* popular tours */
+
     .popular-tours {
         margin-top: 0;
         margin-bottom: 0;
@@ -320,10 +322,17 @@ nav li {
 
     .popular-tours img {
         width: 100%;
+    }
 
+    .popular-tours h1 {
+        font-size: 1.5rem;
     }
 
     /* destination */
+    .destination h1 {
+        font-size: 1.5rem;
+    }
+
     .destination-img11,
     .destination-img22,
     .destination-img33 {
