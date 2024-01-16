@@ -648,18 +648,18 @@ footer hr {
     }
 
     .btn-saving {
-        width: 192px;
-        height: 77px;
-        left: 10rem;
-        bottom: 6.8rem;
+        width: 120px;
+        height: 60px;
+        left: 13rem;
+        bottom: 5.5rem;
     }
 
     .btn-saving p {
-        font-size: 1rem;
+        font-size: 0.6rem;
     }
 
     .btn-saving h4 {
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
 
     /* footer */
