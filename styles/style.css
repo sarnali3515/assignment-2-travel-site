@@ -84,6 +84,10 @@ nav li {
     color: var(--primary-color);
 }
 
+.menu-bar {
+    display: none;
+}
+
 
 /* main */
 /* banner */
@@ -457,7 +461,6 @@ footer hr {
         flex-direction: column;
     }
 
-
     .banner {
         margin: 0;
         width: 100%;
@@ -466,6 +469,34 @@ footer hr {
 
     header {
         margin: 0 50px;
+    }
+
+    .menu-bar {
+        display: block;
+        width: 24px;
+        height: 24px;
+
+    }
+
+    .menu-bar img {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* .nav-title {
+        gap: 10px;
+
+    }
+     */
+    .nav-title img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .nav-title h1 {
+        color: var(--secondary-color);
+        font-size: 2rem;
+        font-weight: 800;
     }
 
     .nav-title {
@@ -619,7 +650,7 @@ footer hr {
     .btn-saving {
         width: 192px;
         height: 77px;
-        left: 11.2rem;
+        left: 10.2rem;
         bottom: 6.8rem;
     }
 
