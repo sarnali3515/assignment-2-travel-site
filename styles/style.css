@@ -341,6 +341,57 @@ nav li {
     color: #FFF;
 }
 
+.btn-saving {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    border: none;
+    color: #FFF;
+    position: relative;
+    left: 840px;
+    bottom: 195px;
+}
+
+.btn-saving p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.btn-saving h4 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 0;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 50px 200px;
+}
+
+.footer-title {
+    display: flex;
+    align-items: center;
+    padding-left: 360px;
+}
+
+footer p {
+    margin: 0 25%;
+    color: #5A5A5D;
+    margin-bottom: 30px;
+}
+
+footer hr {
+    color: rgba(19, 19, 24, 0.10);
+    margin: 30px 0;
+}
+
 
 
 
@@ -488,5 +539,34 @@ nav li {
     .newsletter-input {
         width: 100%;
         height: 52px;
+    }
+
+    .btn-saving {
+        width: 12rem;
+        height: 4.8rem;
+        left: 12.5rem;
+        bottom: 6.8rem;
+    }
+
+    .btn-saving p {
+        font-size: 1rem;
+    }
+
+    .btn-saving h4 {
+        font-size: 1.2rem;
+    }
+
+    /* footer */
+    footer {
+        padding: 20px 20px;
+    }
+
+    footer p {
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .footer-title {
+        padding-left: 45px;
     }
 }
